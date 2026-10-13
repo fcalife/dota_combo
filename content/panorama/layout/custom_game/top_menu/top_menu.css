@@ -1,0 +1,173 @@
+#CTM_Lines {
+	flow-children: down;
+}
+#CTM_Lines > Panel {
+	flow-children: right;
+}
+.CTM_Line2 {
+	margin-top: -54px;
+}
+.CTM_DefultButton {
+	width: 30px;
+	height: 30px;
+	wash-color: transparent;
+	opacity: 0.5;
+	wash-color: #cdf;
+	transition-property: opacity, wash-color;
+	transition-duration: 0.15s;
+	tooltip-position: bottom;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	img-shadow: 0px 0px 3px 3 black;
+	margin: 5px 0 0 5px;
+	align: left top;
+}
+.CTM_DefultButton:hover {
+	wash-color: white;
+	opacity: 1;
+}
+#D_ReturnToDashboard {
+	background-image: url("s2r://panorama/images/control_icons/return_to_game_png.vtex");
+	transform: scaleY(-1);
+}
+#D_Settings {
+	background-image: url("s2r://panorama/images/control_icons/gear_png.vtex");
+	background-size: 27px;
+}
+#D_Scoreboard {
+	background-image: url("s2r://panorama/images/control_icons/hamburger_png.vtex");
+	background-size: 27px;
+}
+#CollectionButton {
+	background-image: url("file://{images}/custom_game/inventory.png");
+}
+#MailButton {
+	background-image: url("file://{images}/custom_game/mail_icon.png");
+}
+#CustomSettingsButton {
+	background-image: url("s2r://panorama/images/control_icons/edit_png.vtex");
+	background-size: 75%;
+	background-position: 50%;
+}
+#LeaderboardButton {
+	background-image: url("file://{images}/custom_game/leaderboards/leaderboard_icon.png");
+}
+#PromoEventsButton {
+	padding: 10px;
+	margin: -6px 0 0 -5px;
+}
+.PE_TB_Background {
+	width: 31px;
+	height: 32px;
+	background-image: url("file://{images}/custom_game/promo_events/button_bg.png");
+	background-size: 100%;
+	transition-property: box-shadow;
+	transition-duration: 0.15s;
+	box-shadow: transparent 0 0 0 0;
+	tooltip-position: bottom;
+}
+.PE_TB_Background_Hover {
+	width: 100%;
+	height: 100%;
+	background-image: url("file://{images}/custom_game/promo_events/button_bg_hover.png");
+	background-size: 100%;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.15s;
+}
+.PE_TB_Background:hover .PE_TB_Background_Hover {
+	opacity: 0.4;
+}
+.PE_TB_Background:active {
+	brightness: 0.5;
+}
+.BNeedClaimPromoTask .PE_TB_Background {
+	box-shadow: rgba(255, 198, 81, 0.5) 0 0 4px -1px;
+}
+.PE_TB_Flag {
+	width: 31px;
+	height: 32px;
+	background-image: url("file://{images}/custom_game/promo_events/button_banner.png");
+	background-size: 100%;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	img-shadow: black 0 0 2px 0;
+}
+.BNeedClaimPromoTask .PE_TB_Flag {
+	animation-name: promo_shake;
+}
+
+@keyframes 'promo_shake' {
+	0% {
+		pre-transform-scale2d: 1;
+		transform: rotateZ(0deg);
+	}
+	10% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(0deg);
+	}
+	20% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(0deg);
+	}
+	30% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(-15deg);
+	}
+	40% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(15deg);
+	}
+	50% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(-15deg);
+	}
+	60% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(15deg);
+	}
+	70% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(-15deg);
+	}
+	80% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(0deg);
+	}
+	90% {
+		pre-transform-scale2d: 1.2;
+		transform: rotateZ(0deg);
+	}
+	100% {
+		pre-transform-scale2d: 1;
+		transform: rotateZ(0deg);
+	}
+}
+.PE_TB_Flag_FX {
+	width: 100%;
+	height: width-percentage(100%);
+	margin-top: 1px;
+	transform: rotateZ(-5deg);
+	margin-right: -1px;
+	margin-left: 1px;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.15s;
+}
+.PE_TB_Background_FX {
+	width: 100%;
+	height: 48px;
+	margin: 25px -9px 0 -6px;
+	z-index: -1;
+	vertical-align: bottom;
+	transform: rotateZ(180deg);
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.15s;
+}
+
+.BNeedClaimPromoTask .PE_TB_Flag_FX,
+.BNeedClaimPromoTask .PE_TB_Background_FX {
+	opacity: 1;
+}

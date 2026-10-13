@@ -1,0 +1,6 @@
+.collection_bp_precache {
+	background-image: url("file://{images}/custom_game/collection/battle_pass/bp_logo.png");
+	background-image: url("file://{images}/custom_game/collection/battle_pass/bp_logo_item.png");
+	background-image: url("file://{images}/custom_game/collection/battle_pass/bp_extra_items.png");
+	background-image: url("file://{images}/custom_game/collection/battle_pass/bp_content_opacity_mask.png");
+}

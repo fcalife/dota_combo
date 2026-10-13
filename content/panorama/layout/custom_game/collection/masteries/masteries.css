@@ -1,0 +1,19 @@
+.Tab_masteries Label {
+	color: gradient(linear, 0% 100%, 0% 0%, from(#6b96aa), to(#a4c7d8));
+}
+
+.Currency_hard Label {
+	color: gradient(linear, 0% 100%, 0% 0%, from(#02babb), to(#00afd7));
+}
+
+#BC_Content .Content_hard_currency {
+	color: gradient(linear, 0% 100%, 0% 0%, from(#3c989c), to(#4ebcd0));
+	padding-right: 25px;
+	background-image: url("file://{images}/custom_game/collection/hard_currency_icon.png");
+	background-size: 21px 21px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+}
+.daily_hard_currency .CB_Button {
+	background-image: url("file://{images}/custom_game/collection/button_active_v2.png");
+}

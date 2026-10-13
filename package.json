@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"name": "ar_custom_game_template",
+	"scripts": {
+		"postinstall": "node scripts/install.js",
+		"launch": "node scripts/launch.js"
+	},
+	"devDependencies": {
+		"@moddota/find-steam-app": "^1.1.0",
+		"fs-extra": "^9.1.0"
+	}
+}

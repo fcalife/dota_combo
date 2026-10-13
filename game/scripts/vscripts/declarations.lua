@@ -1,0 +1,32 @@
+DEVELOPERS = {
+	["76561198132422587"] = true, -- Sanctus Animus
+	["76561198064622537"] = true, -- Sheodar
+}
+
+
+TEAM_COLORS = {
+	[DOTA_TEAM_GOODGUYS] = { 61, 210, 150 },
+	[DOTA_TEAM_BADGUYS]  = { 243, 201, 9 },
+	[DOTA_TEAM_CUSTOM_1] = { 197, 77, 168 },
+	[DOTA_TEAM_CUSTOM_2] = { 255, 108, 0 },
+	[DOTA_TEAM_CUSTOM_3] = { 52, 85, 255 },
+	[DOTA_TEAM_CUSTOM_4] = { 101, 212, 19 },
+	[DOTA_TEAM_CUSTOM_5] = { 129, 83, 54 },
+	[DOTA_TEAM_CUSTOM_6] = { 27, 192, 216 },
+	[DOTA_TEAM_CUSTOM_7] = { 199, 228, 13 },
+	[DOTA_TEAM_CUSTOM_8] = { 140, 42, 244 },
+}
+
+
+MAP_LAYOUTS = {
+	dota = {
+		player_count = 2,
+		teamlist = {
+			DOTA_TEAM_GOODGUYS,
+			DOTA_TEAM_BADGUYS,
+			DOTA_TEAM_CUSTOM_1,
+			DOTA_TEAM_CUSTOM_2,
+			DOTA_TEAM_CUSTOM_3,
+		},
+	}
+}

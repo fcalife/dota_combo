@@ -1,0 +1,40 @@
+<root>
+	<styles>
+		<include src="file://{resources}/layout/custom_game/precache.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/protected_events.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/keybinds_handler.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/inventory.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/player.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/events.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/display_custom_error.js" />
+	</scripts>
+
+	<Panel>
+		<CustomUIElement type="HeroSelection" 		layoutfile="file://{resources}/layout/custom_game/custom_chat/custom_chat_hero_selection.xml" />
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/top_menu/top_menu.xml"/>
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/game_hud_load.xml"/>
+	<!--
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/currency_shop/currency_shop.xml"/>
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/leaderboard/leaderboard.xml"/>
+	-->
+
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/cosmetic_abilities/cosmetic_abilities.xml"/>
+
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/mail/mail.xml"/>
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/feedback/feedback.xml"/>
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/toasts/toasts.xml"/>
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/settings/settings.xml"/>
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/leaderboard/leaderboard.xml"/>
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/promo_events/promo_events.xml"/>
+
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/collection/collection.xml"/>
+
+		<!-- payment window above everything -->
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/payments/payments.xml"/>
+
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/custom_chat/custom_chat.xml"/>
+	</Panel>
+</root>

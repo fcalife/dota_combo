@@ -1,0 +1,146 @@
+.collection_cosmetics_precache {
+	background-image: url("file://{images}/custom_game/collection/cosmetics/other_source.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/bundle_icon.png");
+	background-image: url("file://{images}/custom_game/collection/basic_currency_icon_240.png");
+	background-image: url("file://{images}/custom_game/collection/hard_currency_icon_240.png");
+
+	/*----------- AURAS START -----------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/aura_green_1.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/aura_purple_1.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/diretide_emblem_orange.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/emblem_ti7.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/emblem_ti8.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/emblem_ti9.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/emblem_ti10.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/newbloom_aura.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/aura_gyrus.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/aura_orbis.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/aura_virtus.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/AURA/aura_anima.png");
+	/*------------ AURAS END ------------*/
+
+	/*----------- COSMETIC_SKILL START -----------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_decorate_tree.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_festive_firework.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_firecrackers.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_summon_cny_balloon.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_summon_cny_tree.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_summon_dragon.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_summon_snowman.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_summon_ti9_balloon.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_throw_snowball.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_ti9_banner.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_ti9_instruments.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_ti9_monkey.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/COSMETIC_SKILL/seasonal_ti9_shovel.png");
+	/*------------ COSMETIC_SKILL END ------------*/
+
+	/*------------ HERO_EFFECT START ------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HERO_EFFECT/skin_constellation.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HERO_EFFECT/skin_living_energy.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HERO_EFFECT/skin_burning_conviction.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HERO_EFFECT/skin_nightshade.png");
+	/*------------- HERO_EFFECT END -------------*/
+
+	/*------------- HIGH_FIVE START -------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_bronze.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_dark.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_diretide.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_fire.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_ice.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_midas.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_newbloom.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_paw.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_skeleton.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_white.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_winter.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/HIGH_FIVE/high_five_rgb.png");
+	/*-------------- HIGH_FIVE END --------------*/
+
+	/*------------ KILL_EFFECT START ------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_avowance.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_blast_zone.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_bloodburst.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_blue_whirl.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_collapse.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_diretide_bats.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_dissolution.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_glade_grave.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_golden_touch.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_incineration.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_meltdown.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_raze.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_snowstorm.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_sparkles.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/KILL_EFFECT/kill_effect_supernova.png");
+	/*------------- KILL_EFFECT END -------------*/
+
+	/*--------------- MISC START ---------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_sub_tier_2_consumable.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_breathtaking_benefaction.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_early_bird_charm.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_gg_token.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_legendary_lagresse.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_lucky_trinket_common.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_lucky_trinket_epic.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_lucky_trinket_rare.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_power_crystal.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_reroll.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_tipping_hand.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_golden_hand.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_conqueror_presence.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/bp_teamwork_enhancer.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/battle_pass_tier_2.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/MISC/battle_pass_extra_rewards_bundle.png");
+	/*---------------- MISC END ----------------*/
+
+	/*--------------- PET START ---------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/chicken.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/flying_void_rex.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/forest_wolf.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/gold_dragon.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_devourling.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_doomling.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_flopjaw.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_greevil.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_huntling.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_krobeling.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_seekling.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/golden_venoling.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_aegis.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_default.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_gem.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_linken.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_octarine.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_refresh.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/lefty_ultimate.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/nian.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/onibi.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/roshan_platinum.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/roshan_courier.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/PET/roshan_ti10.png");
+	/*---------------- PET END ----------------*/
+
+	/*-------------- SPRAY START --------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/based_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/ez_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/kekw_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/kekwait_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/monkas_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/omegalul_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/pogu_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/pudge_mom_basher_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/pudge_shapka_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/roflan_spray.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/SPRAY/pepega_spray.png");
+	/*--------------- SPRAY END ---------------*/
+
+	/*------------- TREASURES START -------------*/
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/TREASURES/treasure_1.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/TREASURES/treasure_2.png");
+	background-image: url("file://{images}/custom_game/collection/cosmetics/items/TREASURES/treasure_3.png");
+	/*-------------- TREASURES END --------------*/
+
+	/*------------ VOICE_LINE START ------------*/
+	/*------------- VOICE_LINE END -------------*/
+}

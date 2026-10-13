@@ -1,0 +1,76 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c"/>
+		<include src="file://{resources}/layout/custom_game/top_menu/top_menu.css"/>
+	</styles>
+
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js" />
+		<include src="file://{resources}/layout/custom_game/top_menu/top_menu.js"/>
+	</scripts>
+
+	<Panel class="CustomTopMenu_Root" hittest="false">
+		<Panel id="CTM_Lines">
+			<Panel class="CTM_Line1">
+				<Button id="D_ReturnToDashboard" class="CTM_DefultButton"
+						onactivate="DOTAHUDShowDashboard();"
+						onmouseover="DOTAShowTextTooltip(#DOTA_HUD_BackToDashboard)"
+						onmouseout="DOTAHideTextTooltip()"/>
+				<Button id="D_Settings" class="CTM_DefultButton"
+						onactivate="DOTAShowSettingsPopup();"
+						onmouseover="DOTAShowTextTooltip(#DOTA_HUD_Settings)"
+						onmouseout="DOTAHideTextTooltip()"/>
+				<Button id="D_Scoreboard" class="CTM_DefultButton"
+						onactivate="DOTAHUDToggleScoreboard();"
+						onmouseover="DOTAShowTextTooltip(#DOTA_HUD_Scoreboard)"
+						onmouseout="DOTAHideTextTooltip()"/>
+				<Button id="CollectionButton" class="CTM_DefultButton"
+						onactivate="GameUI.Custom_ToggleCollection();"
+						onmouseover="DOTAShowTextTooltip(#open_collection)"
+						onmouseout="DOTAHideTextTooltip()"/>
+				<TextButton id="PromoEventsButton" hittest="false">
+					<Panel class="PE_TB_Background"
+							onmouseover="DOTAShowTextTooltip(#promo_events_top_menu_hint)"
+							onmouseout="DOTAHideTextTooltip()"
+							onactivate="GameUI.ToggleCustomPromoEvents(true)">
+						<Panel class="PE_TB_Background_Hover" hittest="false"/>
+					</Panel>
+					<Panel class="PE_TB_Flag" hittest="false">
+						<DOTAParticleScenePanel
+								class="PE_TB_Flag_FX"
+								particleName="particles/ui/promo_event_border.vpcf"
+								particleonly="true"
+								lookAt="0 -1 0"
+								cameraOrigin="0 0 -50"
+								fov="110"
+								hittest="false"
+						/>
+					</Panel>
+					<DOTAParticleScenePanel
+							class="PE_TB_Background_FX"
+							particleName="particles/ui/promo_event_flame.vpcf"
+							particleonly="true"
+							lookAt="0 0 130"
+							cameraOrigin="0 -120 45"
+							fov="90"
+							hittest="false"
+					/>
+				</TextButton>
+			</Panel>
+			<Panel class="CTM_Line2">
+				<Button id="MailButton" class="CTM_DefultButton"
+						onactivate="GameUI.ToggleMailPanel();"
+						onmouseover="DOTAShowTextTooltip(#open_mail)"
+						onmouseout="DOTAHideTextTooltip()"/>
+				<Button id="CustomSettingsButton" class="CTM_DefultButton"
+						onactivate="GameUI.ToggleSettings();"
+						onmouseover="DOTAShowTextTooltip(#settings_top_menu_hint)"
+						onmouseout="DOTAHideTextTooltip()"/>
+				<Button id="LeaderboardButton" class="CTM_DefultButton"
+						onactivate="GameUI.ToggleLeaderboard();"
+						onmouseover="DOTAShowTextTooltip(#leaderboard_top_menu_hint)"
+						onmouseout="DOTAHideTextTooltip()"/>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

@@ -1,0 +1,93 @@
+.TestWindow {
+	width: 400px;
+	height: 600px;
+
+	flow-children: down;
+
+	align: left center;
+
+	background-color: rgba(1, 1, 1, 0.7);
+
+	padding: 10px;
+}
+
+.TestWindow Label {
+	color: white;
+	text-shadow: 1px 1px 3px 3 #000000;
+}
+
+.PlayerData {
+	flow-children: down;
+}
+
+.PurchaseButtonsContainer {
+	flow-children: down;
+}
+
+.PurchaseButton {
+	flow-children: right;
+}
+
+.ItemsContainer {
+	flow-children: down;
+}
+
+.PurchaseButton {
+	padding: 4px;
+	background-image: url("file://{images}/custom_game/backgrounds/button_bg.png");
+	background-size: 100%;
+
+	margin: 5px;
+	width: 250px;
+
+	transition-property: brightness;
+	transition-duration: 0.1s;
+}
+
+.ProductName {
+	color: white;
+	text-shadow: 2px 2px 3px 2 #000000;
+}
+
+.PurchaseButton:hover {
+	brightness: 1.5;
+}
+
+.Price {
+	horizontal-align: right;
+	color: goldenrod;
+	text-shadow: 2px 2px 3px 2 #000000;
+}
+
+.currency_highlight {
+	color: gold;
+}
+
+#CurrentItemsList {
+	flow-children: down;
+	overflow: squish scroll;
+}
+
+.ItemEntry {
+	padding: 4px;
+
+	background-size: 100%;
+	margin: 4px;
+}
+
+.ItemEntry:hover {
+	brightness: 1.5;
+}
+
+.owned {
+	background-image: url("file://{images}/custom_game/backgrounds/button_bg.png");
+}
+
+.equipped {
+	background-image: url("file://{images}/custom_game/backgrounds/button_bg_red.png");
+}
+
+#EquippedItems {
+	margin-top: 10px;
+	flow-children: down;
+}

@@ -1,0 +1,8 @@
+<root>
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/override_dota_ui.js" />
+		<include src="file://{resources}/layout/custom_game/scripts/ping_modifiers_fix.js" />
+	</scripts>
+	<Panel style="visibility: collapse;" hittest="false"/>
+</root>

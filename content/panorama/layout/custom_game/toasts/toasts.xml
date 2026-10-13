@@ -1,0 +1,68 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/layout/custom_game/toasts/toasts.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js" />
+		<include src="file://{resources}/layout/custom_game/toasts/toasts.js" />
+	</scripts>
+
+	<snippets>
+		<snippet name="toast">
+			<Panel class="Toast">
+				<Panel class="ToastWrap">
+					<Image id="ToastImage"/>
+					<Panel class="ToastContent">
+						<Label class="ToastHeader" html="true" text="{s:toast_header}"/>
+						<Label class="ToastDescription" html="true" text="{s:toast_description}"/>
+					</Panel>
+				</Panel>
+				<Button id="CloseButton"/>
+			</Panel>
+		</snippet>
+
+		<snippet name="player_tip">
+			<Panel class="Toast">
+				<Panel class="PlayerContainer TipSource">
+					<Image class="HeroImage" heroimagestyle="landscape" />
+					<DOTAUserName class="UserName"/>
+				</Panel>
+				<Panel class="TipValueContainer">
+					<Label class="TipText" text="#DOTA_TipNotification"/>
+					<Panel class="TipCurrencyContainer">
+						<Image class="CurrencyIcon" src="file://{images}/custom_game/collection/basic_currency_icon_small.png"/>
+						<Label class="CurrencyValue" text="{d:value}"/>
+					</Panel>
+				</Panel>
+				<Panel class="PlayerContainer TipTarget">
+					<Image class="HeroImage" heroimagestyle="landscape" />
+					<DOTAUserName class="UserName"/>
+				</Panel>
+			</Panel>
+		</snippet>
+
+		<snippet name="sub_trial_available">
+			<Panel class="Toast">
+				<Panel class="ToastWrap">
+					<Image id="ToastImage"/>
+					<Panel class="ToastContent">
+						<Label class="ToastDescription" html="true" text="#tip_trial_available"/>
+					</Panel>
+				</Panel>
+				<Panel class="TipButtonsWrap">
+					<Button class="TipButton" id="AcceptButton">
+						<Label text="#tip_accept_trial"/>
+					</Button>
+					<Button class="TipButton" id="DeclineButton">
+						<Label text="#tip_decline_trial"/>
+					</Button>
+				</Panel>
+			</Panel>
+		</snippet>
+	</snippets>
+
+	<Panel class="ToastsContainer" hittest="false">
+		<!-- filled from code -->
+	</Panel>
+</root>

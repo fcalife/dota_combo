@@ -1,0 +1,23 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c"/>
+		<include src="file://{resources}/layout/custom_game/custom_chat/custom_chat.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js"/>
+		<include src="file://{resources}/layout/custom_game/custom_chat/custom_chat_const.js" />
+		<include src="file://{resources}/layout/custom_game/custom_chat/custom_chat.js" />
+	</scripts>
+	
+	<snippets>
+		<snippet name="Mastery">
+			<Panel class="Mastery">
+				<Panel id="MasteryBackground"/>
+				<Panel id="MasteryTooltip"/>
+				<Panel id="MasteryIcon"/>
+			</Panel>
+		</snippet>
+	</snippets>
+
+	<Panel class="DummyHud" hittest="false" style="flow-children: down;"/>
+</root>

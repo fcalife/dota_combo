@@ -1,0 +1,38 @@
+"lang"
+{
+	"Language"		"schinese"
+	"Tokens"
+	{
+		"html_loading"                                                          "此页可能需要15秒才能完成加载。请稍等..."
+		"promo_events_header"				"推广活动"
+		"promo_events_games_header"			"游玩游戏，获得限量专属奖励"
+		"promo_events_no_tasks"				"目前无可用任务"
+		"promo_events_claim"				"领取！"
+		"promo_events_claimed"				"已领取"
+		"promo_events_game_12v12"					"12v12"
+		"promo_events_game_overthrow_3"				"Overthrow 3.0"
+		"promo_events_game_custom_hero_clash"		"技斗英雄"
+		"promo_events_game_ar_custom_game_template"	"模板"
+		"promo_events_time_remaining"				"剩余：{s:time_remaining}"
+		"promo_events_time_expired"			"过期时间"
+		"promo_events_time_days"			"{s:days}天"
+		"promo_events_time_hours"			"{s:hours}小时"
+		"promo_events_time_mins"			"{s:mins}分钟"
+		"promo_events_open_game_hint"		"在Steam创意工坊中打开<font color='#f1c13b'>{s:game_name}</font>"
+
+		"promo_events_win_games"			"赢得游戏"
+		"promo_events_play_games"			"游玩游戏"
+		"promo_events_reach_round"			"达到回合数"
+		"promo_events_ot3_upgrades"			"获得升级"
+		"promo_events_kill_heroes"			"击杀敌方英雄"
+		"promo_events_mvp"					"获得MVP"
+		"promo_events_ot3_hero_challenge"	"完成英雄挑战"
+		"promo_events_ot3_upgrades"			"选择升级"
+		"promo_events_kill_heroes"			"击杀英雄"
+		"promo_events_mvp"					"获得MVP状态"
+
+		"promo_events_top_menu_hint"				"展示推广活动"
+		"toast_promo_claim_available"				"<span class='ToastGoldenGradientText'>推广活动奖励</span>现已可用！"
+		"toast_promo_claim_available_description"	"你还未领取游戏游玩奖励！<br><span class='ToastHighlightItalic'>点击领取奖励</span>"
+	}
+}

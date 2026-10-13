@@ -1,0 +1,46 @@
+.precache {
+	background-image: url("file://{images}/custom_game/mail/mail.png");
+	background-image: url("file://{images}/custom_game/mail/mail_gold.png");
+	background-image: url("file://{images}/custom_game/mail/event.png");
+	background-image: url("file://{images}/custom_game/mail/event_gold.png");
+	background-image: url("file://{images}/custom_game/mail/announce.png");
+	background-image: url("file://{images}/custom_game/mail/announce_gold.png");
+	background-image: url("file://{images}/custom_game/mail/mail_reward_bg.png");
+	background-image: url("file://{images}/custom_game/mail/mail_reward_bg_obtained.png");
+
+	background-image: url("file://{images}/custom_game/cosmetic_abilities/default_cosmetic_ability.png");
+	background-image: url("file://{images}/custom_game/cosmetic_abilities/spray_empty.png");
+	background-image: url("file://{images}/custom_game/cosmetic_abilities/spray_no_empty.png");
+
+	background-image: url("file://{images}/custom_game/payments/products/subscription_tier_1.jpg");
+	background-image: url("file://{images}/custom_game/payments/products/subscription_tier_2.jpg");
+	background-image: url("file://{images}/custom_game/payments/payment_alipay.png");
+	background-image: url("file://{images}/custom_game/payments/payment_card.png");
+	background-image: url("file://{images}/custom_game/payments/payment_patreon.png");
+	background-image: url("file://{images}/custom_game/payments/payment_wechat.png");
+	background-image: url("file://{images}/custom_game/payments/payment_xsolla.png");
+
+	background-image: url("file://{images}/custom_game/collection/glow.png");
+	background-image: url("file://{images}/custom_game/collection/hard_currency_icon.png");
+	background-image: url("file://{images}/custom_game/collection/basic_currency_icon.png");
+	background-image: url("file://{images}/custom_game/collection/basic_plus_currency.png");
+	background-image: url("file://{images}/custom_game/collection/hard_plus_currency.png");
+	background-image: url("file://{images}/custom_game/collection/tab_icon_battle_pass.png");
+	background-image: url("file://{images}/custom_game/collection/tab_icon_cosmetics.png");
+	background-image: url("file://{images}/custom_game/collection/tab_icon_gift_codes.png");
+	background-image: url("file://{images}/custom_game/collection/tab_icon_masteries.png");
+	background-image: url("file://{images}/custom_game/collection/tab_icon_subscription.png");
+
+	background-image: url("file://{images}/custom_game/circle_mask.png");
+
+	background-image: url("file://{images}/custom_game/promo_events/golden_check.png");
+	background-image: url("file://{images}/custom_game/promo_events/12v12.png");
+	background-image: url("file://{images}/custom_game/promo_events/12v12_small.png");
+	background-image: url("file://{images}/custom_game/promo_events/overthrow_3.png");
+	background-image: url("file://{images}/custom_game/promo_events/overthrow_3_small.png");
+	background-image: url("file://{images}/custom_game/promo_events/custom_hero_clash.png");
+	background-image: url("file://{images}/custom_game/promo_events/custom_hero_clash_small.png");
+	background-image: url("file://{images}/custom_game/promo_events/ar_custom_game_template.png");
+	background-image: url("file://{images}/custom_game/promo_events/ar_custom_game_template_small.png");
+	background-image: url("file://{images}/custom_game/promo_events/button_with_bg.png");
+}

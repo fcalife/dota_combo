@@ -1,0 +1,51 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/layout/custom_game/payment_test_panel/test.css" />
+	</styles>
+
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js" />
+		<include src="file://{resources}/layout/custom_game/payment_test_panel/test.js" />
+	</scripts>
+
+	<Panel class="TestWindow">
+
+		<Panel class="PlayerData">
+			<Label class="DataEntry Subscription" html="true" text="Subscription: {s:subscription_data}"/>
+			<Label class="DataEntry Currency" html="true" text="Currency: <span class='currency_highlight'>{d:currency}</span>"/>
+		</Panel>
+
+		<Panel class="PurchaseButtonsContainer">
+			<Button class="PurchaseButton Button" id="currency_bundle_550"
+			onactivate="GameUI.InitiatePaymentFor('currency_bundle_550')">
+				<Label class="ProductName" text="Purchase Bundle x550"/>
+				<Label class="Price" text="{s:price}"/>
+			</Button>
+			<Button class="PurchaseButton Button" id="subscription_tier_1"
+			onactivate="GameUI.InitiatePaymentFor('subscription_tier_1')">
+				<Label class="ProductName" text="Purchase Sub tier 1"/>
+				<Label class="Price" text="{s:price}"/>
+			</Button>
+			<Button class="PurchaseButton Button" id="subscription_tier_2"
+			onactivate="GameUI.InitiatePaymentFor('subscription_tier_2')">
+				<Label class="ProductName" text="Purchase Sub tier 2"/>
+				<Label class="Price" text="{s:price}"/>
+			</Button>
+			<Button class="PurchaseButton Button" onactivate="GameUI.RequestCustomerPortalURL()">
+				<Label class="ProductName" text="Open customer portal"/>
+			</Button>
+		</Panel>
+
+		<Panel class="ItemsContainer">
+			<Label class="Header" text="Items"/>
+			<Panel id="CurrentItemsList">
+				<!-- filled from code -->
+			</Panel>
+			<Panel id="EquippedItems">
+				<!-- filled from code -->
+			</Panel>
+		</Panel>
+
+	</Panel>
+</root>

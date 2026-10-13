@@ -1,0 +1,32 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	collection.buy_currency = 
+	{
+		type = "dota_src1_2d"
+		volume = 3.000000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = "sounds/ui/comp_coin.vsnd"
+	}
+	collection.drop_arcana = {
+		type = "dota_src1_2d"
+		volume = 1
+		pitch = 1
+		vsnd_files = "sounds/weapons/hero/earthshaker/enc/arcana_overlayer.vsnd"
+	}
+	collection.flip = {
+		type = "dota_src1_2d"
+		volume = 1
+		pitch = 1
+		vsnd_files = "sounds/ui/cards/flip.vsnd"
+	}
+	collection.duplicate_item = {
+		type = "dota_src1_2d"
+		volume = 1
+		pitch = 1
+		vsnd_files =
+		[
+			"sounds/ui/economy/underdraft_synergy.vsnd"
+		]
+	}
+}

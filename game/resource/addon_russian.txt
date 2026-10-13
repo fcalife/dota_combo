@@ -1,0 +1,389 @@
+"lang"
+{
+	"Language"		"russian"
+	"Tokens"
+	{
+		"toast_gift_code_prefix"					"Подарочный код на"
+
+		"toast_mail_incoming"						"Новое письмо!"
+		"toast_mail_incoming_description"			"Вы получили письмо от<span class='ToastHighlight'>{s:source}</span> про <span class='ToastHighlight'>{s:topic}</span>."
+
+		"toast_payment_success"						"Ваша покупка завершена!"
+		"toast_payment_success_description"			"<span class='ToastHighlight'>{s:product_name}</span> добавлен на ваш аккаунт. Спасибо!"
+
+		"toast_payment_fail"						"Ваша покупка не удалась!"
+		"toast_payment_fail_description"			"Покупка <span class='ToastHighlight'>{s:product_name}</span> не удалась.<br><span class='ToastHint'>Нажмите здесь для деталей.</span>"
+
+		"toast_gift_code_sent"							"Вам сделали подарок"
+		"toast_gift_code_sent_description"				"<span class='ToastHighlight'>{s:gifter_name}</span> gifted you <span class='ToastHighlight'>{s:product_name}</span>!"
+
+		"dota_hud_error_used_all_tips_for_today"	"Вы использовали все похвалы на сегодня"
+		"dota_hud_error_used_all_tips_for_this_game""Вы использовали все похвалы для этой игры"
+		"dota_hud_error_tip_is_on_cooldown"			"Похвала перезаряжается"
+
+		"payment_window_header"						"Вы покупаете"
+		"payment_window_total"						"Всего:"
+		"payment_process_hint"						"Обработка оплаты займет некоторое время. Вы получите уведомление когда обработка завершится."
+		"payment_window_gift_code_checkbox"			"Купить как Подарочный Код"
+		"payment_window_gift_code_hint"				"Вы можете отправить Подарочные Коды своим друзьям!"
+		"payment_window_method_header"				"Выберите метод оплаты"
+
+		"dev_team"									"Команда Разработчиков"
+		"feedback_reply"							"Ответ на отзыв"
+
+		"payment_region_check"						"russian"
+
+		"subscription_tier_1"					"Поддержавший"
+		"subscription_tier_1_description"		"+300 Боевой Славы<br>
+		+Приоритет выбора героя<br>
+		Купленые предметы появляются мгновенно<br>
+		+1 Выбор к Обычным Улучшениям<br>
+		+4 бесплатных реролла"
+		"subscription_tier_2"					"Золотой Поддержавший"
+		"subscription_tier_2_description"		"+2000 Боевой Славы<br>
+		+Приоритет выбора героя<br>
+		Купленые предметы появляются мгновенно<br>
+		+1 Выбор ко всем Улучшениям<br>
+		+9 бесплатных рероллов"
+
+		"currency_bundle_1"					"Набор Славы (100)"
+		"currency_bundle_1_description"		"Добавляет x100 Боевой Славы"
+		"currency_bundle_2"					"Набор Славы (550)"
+		"currency_bundle_2_description"		"Добавляет х550 Боевой Славы"
+		"currency_bundle_3"					"Набор Славы (1150)"
+		"currency_bundle_3_description"		"Добавляет x1150 Боевой Славы"
+		"currency_bundle_4"					"Набор Славы (3000)"
+		"currency_bundle_4_description"		"Добавляет x3000 Боевой Славы"
+		"currency_bundle_5"					"Набор Славы (6000)"
+		"currency_bundle_5_description"		"Добавляет x6000 Боевой Славы"
+		"currency_bundle_6"					"Набор Славы (15000)"
+		"currency_bundle_6_description"		"Добавляет x15000 Боевой Славы"
+
+
+		"feedback"				"ОТЗЫВ"
+		"default_feedback"		"Send your feedback, suggestions and ideas here.\nPlease remember that:\n1. We can't see game replays\n2. Our stats collection is fairly limited\n3. The best way to share detailed feedback is our discord server"
+		"feedback_send"			"ОТПРАВИТЬ"
+		"feedback_cooldown"		"Пожалуйста, подождите немного."
+		"feedback_blocked"		"Пожалуйста, напишите ваш отзыв."
+
+		"mail_header"			"Почта"
+		"mail_source"			"От: <span class='MailHighlight'>\"{s:source}\"</span>"
+		"mail_claim"			"Получить"
+		"mail_delete"			"Удалить"
+		"no_mails_hint"			"У вас пока нет писем..."
+
+
+		"DOTA_Tooltip_ability_high_five_custom"										"High Five"
+		"DOTA_Tooltip_ability_high_five_custom_Description"							"Throw your hand (or handy appendage) in the air!"
+
+		"DOTA_Tooltip_ability_default_cosmetic_ability"				"Cosmetic ability"
+		"DOTA_Tooltip_ability_default_cosmetic_ability_Description"	"Choose your cosmetic ability from <font color='#f3c409'>COLLECTION</font> and have a party!"
+
+		"DOTA_Tooltip_ability_spray_custom"				"Sprays"
+		"DOTA_Tooltip_ability_spray_custom_Description"	"Leave your mark on the map, visible to everyone!<br>You can equip a spray in the <font color='#f3c409'>COLLECTION</font>"
+
+		"sub_0"			"Нет активной подписки "
+		"sub_1"			"Поддержавший"
+		"sub_2"			"Золотой поддержавший"
+		"sub_details"		"Преимущества"
+		"tab_battle_pass"	"Боевой Пропуск"
+		"tab_masteries"		"Masteries"
+		"tab_cosmetics"		"Косметика"
+		"tab_gift_codes"		"Коды"
+		"tab_subscription"	"Подписка"
+		"unlock_full_bp_tier"	"Разблокировать ВИП<br>Боевой Пропуск"
+		"unlock_full_bp_extra"	"Купить Премиум<br>Набор"
+		"unlock_full_bp_full"	"Все награды<br>открыты"
+		"bp_level"	"Уровень"
+
+		"bp_time_remaining"	"<font color='#7B88B3'>Осталось времени:</font><font color='#C2BCAB'>{s:bp_time_reamining}<font/>"
+
+		"bp_timer_remaining_day:p"	"день#|#дней"
+		"bp_timer_remaining_hour:p"	"час#|#часов"
+		"bp_timer_remaining_min:p"	"минута#|#минут"
+		"bp_timer_remaining_sec:p"	"секунда#|#секунд"
+
+		"bp_timer_remaining_time_left"		" Время закончилось. Вы можете получить награды"
+		"bp_redeem_all"						"Получить награды"
+
+		"payment_sub_content_line_fortune"			"+{d:value} Удача"
+		"payment_sub_content_line_currency"			"+{d:value} Боевая Слава"
+		"payment_sub_content_line_exp"				"+{d:value} Опыт Боевого Пропуска"
+		"payment_sub_content_line_exp_boost"		"+{d:value}% Получение Опыта Боевого Пропуска"
+		"payment_sub_content_line_daily"			"+{d:value} Ежедневных заданий"
+		"payment_sub_content_line_supp_items"		"+Предметы для поддержавших"
+		"payment_sub_content_line_supp_items_2"		"+Эксклюзивные предметы"
+		"payment_sub_price"							"{s:price}/месяц"
+		"close"	"Закрыть"
+		"item_tooltip_count"	"Количество: {s:item_count}"
+		"item_tooltip_rarity"	"Редкость: ##rarity_name##"
+
+		"rarity_unique"						"Древний"
+
+		"currency"							"Боевая слава"
+		"daily_fortune"						"Free daily bonus"
+		"pay_currency_header"				"Покупка Набора"
+		"sort_by"	"Сортировка:"
+		"cosmetic_show_owned_items_only"	"Показать только имеющиеся"
+		"confirm_your_purchase"				"Подтвердите покупк"
+		"confirm"							"Подтвердить"
+
+		"open_treasure"					"ОТКРЫТЬ"
+		"action_EQUIPMENT"				"НАДЕТЬ"
+		"action_EQUIPMENT_TAKE_OFF"		"СНЯТЬ"
+		"action_CONSUMABLE"				"ПРИМЕНИТЬ"
+		"action_PASSIVE"				"ПОЛУЧЕНО"
+		"item_in_treasure"				"В СУНДУКЕ"
+		"treasure_preview_header"		"{s:treasure_name} СУНДУК"
+		"buy_treasure"					"КУПИТЬ СУНДУК"
+		"open_more_treasures"			"ОТКРЫТЬ ЕЩЁ"
+		"accept"						"ПРИНЯТЬ"
+		"skip_wheel_treasure"			"ПРОПУСТИТЬ"
+		"wheel_received"			"ВЫ ПОЛУЧИЛИ"
+        "duplicate_item_info"    	"Дубликат! Автоматически конвертирован в"
+        "duplicate_item_back"    	"."
+        "item_source"	"Источник: {s:item_source_name}"
+        "item_source_subscription_tier"	"Подписка"
+        "item_source_currency"	"Валюта"
+        "item_source_treasure"	"Сундук"
+        "item_source_other"		"Другое"
+
+		"TREASURES"			"Сокровищницы"
+		"AURA"				"Ауры"
+		"PET"				"Питомцы"
+		"KILL_EFFECT"		"Эффекты<br>Убийств"
+		"COSMETIC_SKILL"	"Косметические<br>Умения"
+		"HIGH_FIVE"			"Дать пять!"
+		"SPRAY"				"Спреи"
+		"HERO_EFFECT"		"Эффекты Героя"
+		"MISC"				"Другое"
+
+		"TREASURES"			"Сокровищницы"
+		"AURA"				"Ауры"
+		"PET"				"Питомцы"
+		"KILL_EFFECT"		"Эффекты<br>Убийств"
+		"COSMETIC_SKILL"	"Косметические<br>Умения"
+		"HIGH_FIVE"			"Дать пять!"
+		"SPRAY"				"Спреи"
+		"HERO_EFFECT"		"Эффекты Героя"
+		"MISC"				"Другое"
+		"VOICE_LINE"		"Фразы для чата"
+
+        "default_item_description_TREASURES"		"Сундук с косметическими предметами"
+        "default_item_description_AURA"				"Декоративная аура для героя"
+        "default_item_description_PET"				"Преданный компаньон, следующий за вами в бой"
+        "default_item_description_KILL_EFFECT"		"Эффект, играющий при убийстве врагов"
+        "default_item_description_COSMETIC_SKILL"	"Косметический навый для развлечения"
+        "default_item_description_HIGH_FIVE"		"Дай пять друзьям! Или врагам! Или всем сразу!"
+        "default_item_description_SPRAY"			"Оставьте след на поле боя с этим спреем"
+        "default_item_description_HERO_EFFECT"		"Покрывает вашего героя специальным эффектом"
+        "default_item_description_MISC"				"Разное"
+
+        "default_item_description_bundle"		"Содержит несколько разных предметов"
+        "default_item_description_currency"		"Немного блестящих монет"
+
+        "gift_code_unwrap"						"Код применен!"
+        "gift_code_redeem_header"				"Применить Код"
+        "gift_code_redeem"						"Применить"
+
+        "gift_code_header_item"					"Предмет"
+        "gift_code_header_gift_code"			"Код"
+        "gift_code_header_gift_code_hint"		"(Нажмите чтобы скопировать)"
+        "gift_code_header_status"				"Статус"
+        "gift_code_header_refresh"				"Обновить"
+
+        "gift_code_hint_how_to_buy"				"Как купить подарочный код"
+        "gift_code_hint_how_to_gift"			"Как отправить подарочный код"
+
+        "gift_code_hint_how_to_buy_1"	"Выберите подписку или набор для подарка"
+        "gift_code_hint_how_to_buy_2"	"На этапе подтверждения оплаты выберите <font color='#f5dfc6'>'Купить как Подарочный Код'</font>."
+        "gift_code_hint_how_to_buy_3"	"Предмет будет конвертирован в <font color='#f5dfc6'>Подарочный Код</font> и появится в списке выше"
+        "gift_code_hint_how_to_buy_4"	"Только одноразовые подписки и наборы могут быть подарены"
+
+
+        "gift_code_hint_how_to_gift_1"	"Если ваш друг в этом матче, используйте кнопку <font color='#f5dfc6'>ОТПРАВИТЬ</font>."
+        "gift_code_hint_how_to_gift_2"	"Если ваш друг не в этом матче, используйте <font color='#f5dfc6'>РАСКРЫТЬ</font>, скопируйте код и отправьте другу."
+        "gift_code_hint_how_to_gift_3"	"Можно копировать коды без Раскрытия - просто нажав на код."
+        "gift_code_hint_how_to_gift_4"	"Вы можете <font color='#f5dfc6'>ПОЛУЧИТЬ</font> свой подарочный код для себя."
+
+        "gift_code_reveal"						"Раскрыть"
+        "gift_code_hide"						"Скрыть"
+        "gift_code_status_claimed"				"Применен"
+        "gift_code_status_available"			"Доступен"
+        "gift_code_claimed_by"					"Применен"
+        "gift_code_reclaim"						"Получить"
+        "gift_code_send"						"ОТправить"
+        "gift_code_copied"						"Скопирован"
+        "gift_code_header_select_player"		"Выберите игрока"
+        "gift_code_header_select_player_description"	"Цель получит уведомление<br>и подарок"
+        "gift_code_notify_unreversed"			"Это действие нельзя отменить!"
+
+        "gift_code_used_0"	"Код успешно использован"
+        "gift_code_used_1"	"Неправильный код"
+        "gift_code_used_2"	"Код уже использован"
+
+        "subscription_header_unsub"	"Нет активной подписки"
+        "subscription_header_sub_h1"	"Ваш "
+        "subscription_header_sub_h2"	" будет активен до [{t:sub_end_date}]"
+        "subscription_header_sub_h2_auto"	"продлиться [{t:sub_end_date}] за <b>{s:renew_price}</b>"
+        "subscription_header_sub_trial"	"пробная версия активна до [{t:sub_end_date}]"
+        "subscription_error"	"Мы не смогли продлить вашу подписку, нажмите <font color='#FAF1FF'>ЗДЕСЬ</font> для деталей."
+        "subscription_manage"	"Управление"
+        "subscription_type_payment"	"Одноразовый платеж"
+        "subscription_type_automatic"	"Повторяющаяся от {s:auto_sub_type}"
+        "subscription_start_time"	"Подписан с: {t:sub_start_date}"
+        "type_payment"	"Платеж"
+        "type_payment_one_time"	"Одноразовый"
+        "type_payment_reccuring"	"Повторяющийся"
+
+		"payment_window_one_time_hint"		"Вы платите только раз"
+		"payment_window_subscription_hint"	"С вас будет взиматься плата сейчас и каждый месяц автоматически"
+
+		"cc_sort_default"	"Стандартная"
+		"cc_sort_rarity_up"		"Редкость (Убывает)"
+		"cc_sort_rarity_down"	"Редкость (Возрастает)"
+
+		"battle_pass_tier_2"					"ВИП Боевой Пропуск"
+		"battle_pass_tier_2_description"	"Разблокирует награды ВИП Боевого Пропуска"
+		"battle_pass_extra_rewards_bundle"	"Премиум Набор Боевого Пропуска"
+		"battle_pass_extra_rewards_bundle_description"	"• 15% conqueror's presence<br>• +20% power crystal<br>• +10% Lucky Trinket (common/rare/epic)<br>• +3 early bird charms<br>• x100 Rerolls<br>• x6 GG tokens<br>• x4 Legendary Largesses<br>• x2 Breathtaking Benefactions<br>• <font color='#f7b80f'>+2,500 Glory</font><br>• Unlocks exclusive <b>Anima</b> aura<br>• Unlocks exclusive <b>Nightshade</b> skin<br><br><font color='#e80000'>CAN ONLY BE PURCHASED ONCE</font>"
+
+		"html_loading"								"Загрузка этой страницы может занять до 15 секунд, пожалуйста подождите..."
+
+		"bp_reroll"									"Расходный Реролл"
+		"bp_reroll_description"						"Предоставляет +1 Расходный Реролл. Реролл редких улучшений стоит 2, эпических - 4."
+		"bp_tipping_hand"							"Рука Похвалы"
+		"bp_tipping_hand_description"				"Предоставляет возможность хвалить игроков, до 6 раз в день, по 5 Боевой Славы за раз."
+		"bp_golden_hand"							"Золотая Рука"
+		"bp_golden_hand_description"				"Предоставляет возможность хвалить до 12 раз в день"
+		"bp_power_crystal"							"Кристалл Силы"
+		"bp_power_crystal_description"				"Повышает силу обычных улучшений параметров на <font color='#e5e5e5'><b>{d:count}%</b></font>. Активируется только в начале матча."
+		"bp_conqueror_presence"						"Присутствие Завоевателя"
+		"bp_conqueror_presence_description"			"Ускоряет захват сфер улучшений на <font color='#e5e5e5'><b>{d:count}%</b></font> если вы находитесь в них. Используется наивысшее значение среди всех героев в области сферы."
+		"bp_lucky_trinket_common"					"Счастливый Брелок (Обычный)"
+		"bp_lucky_trinket_common_description"		"Предоставляет <font color='#e5e5e5'><b>{d:count}%</b></font> шанс дублировать любое обычное улучшение."
+		"bp_lucky_trinket_rare"						"Счастливый Брелок (Редкий)"
+		"bp_lucky_trinket_rare_description"			"Предоставляет <font color='#e5e5e5'><b>{d:count}%</b></font> шанс дублировать любое редкое улучшение."
+		"bp_lucky_trinket_epic"						"Счастливый Брелок (Эпический)"
+		"bp_lucky_trinket_epic_description"			"Предоставляет <font color='#e5e5e5'><b>{d:count}%</b></font> шанс дублировать любое эпическое улучшение."
+		"bp_early_bird_charm"						"Амулет Ранней Пташки"
+		"bp_early_bird_charm_description"			"Предоставляет случайное обычное улучшение параметров. Стакается с собой. Срабатывает только в начале матча."
+		"bp_teamwork_enhancer"						"Усилитель командной работы"
+		"bp_teamwork_enhancer_description"			"Повышает пассивную скорость получения обычных улучшений вашей команды <font color='#e5e5e5'><b>{d:count}%</b></font>. Складывается с усилителями всей команды."
+		"bp_gg_token"								"Токен Хорошей Игры"
+		"bp_gg_token_description"					"Расходник. При использовании, добавляет 8/10/15/20 (FFA/Duo/Quintet/Octet) к лимиту убийств, и времени игры соответственно. Можно применить только раз за матч."
+		"bp_legendary_lagresse"						"Легендарные Щедроты"
+		"bp_legendary_lagresse_description"			"Расходник. При применении, добавляет редкое улучшение всем командам"
+		"bp_breathtaking_benefaction"				"Завораживающая милость"
+		"bp_breathtaking_benefaction_description"	"Расходник. При применении, добавляет эпическое улучшение всем командам"
+
+		"items_bundle"								"Набор"
+		"bundle_base_description"					"Этот набор содержит:"
+		"item_consumable_use_confirm"				"Подтвердите применение"
+
+		"bp_sub_tier_2_consumable"				"Золотой Поддержавший - 7 Дней"
+		"bp_sub_tier_2_consumable_description"	"Предоставляет преимущества Золотого Поддерджавшего на 7 дней.<br>Если вы уже поддерживаете, вы получите 2000 Боевой Славы взамен."
+		"bp_sub_tier_2_consumable_confirm_0"		"Вы получите 7 дней <font color='#f7b80f'>Золотого Поддержавшего</font> при применении."
+		"bp_sub_tier_2_consumable_confirm_1"		"Поскольку вы уже поддержавший, вы получите <font color='#f7b80f'>2,000</font> Боевой Славы взамен."
+
+		"open_collection"			"Коллекция"
+		"open_mail"					"Почта"
+
+		"legendary_lagresse_used"		"%s1 used Legendary Lagresse to grant all players <font color='#0084ff'>Rare Upgrade</font>"
+		"breathtaking_benefaction_used"	"%s1 used Breathtaking Benefaction to grant all players <font color='#ea00ff'>Epic Upgrade</font>"
+		"gg_token_used"					"%s1 used Good Game Token!"
+
+		"map_bp_no_items"	"Заходите каждый день для получения бесплатых наград!"
+		"map_bp_open_bp"	"Открыть Пропуск"
+
+		"kl_voting_token_cost"	"Стоит 1x"
+		"kl_voting_token_count"	"У вас есть {s:gg_token_count}"
+		"leaderboard_rank"		"Rank"
+
+		"HeroSelectionStreak"		"Череда:<br>{d:streak_current} / {d:streak_max}"
+
+		"map_orb_gift_to_teams"			"Сделать подарок"
+		"map_orb_desc_rare"				"Подарить <font color='#4cd2e4'>РЕДКОЕ УЛУЧШЕНИЕ</font> всем коммандам?"
+		"map_orb_remaining_rare"		"У вас осталось <font color='#4cd2e4'>{s:rare_orbs_count}</font>"
+		"map_orb_desc_epic"				"Подарить <font color='#f630d3'>ЭПИЧЕСКОЕ УЛУЧШЕНИЕ</font> всем коммандам?"
+		"map_orb_remaining_epic"		"У вас осталось <font color='#f630d3'>{s:epic_orbs_count}</font>"
+		"bp_second_line_closed_line"	"Требует <font color='#f2a053'>ВИП Боевой Пропуск</font>"
+
+		"treasure_1_description"			"A collection of commonly found items, with the occasional rare find"
+		"treasure_2_description"			"A selection of high-value items, with some true gems sprinkled in"
+		"treasure_3_description"			"A wealth of sought-after treasures, including a few incredibly rare relics"
+
+		"map_bp_active_buffs"			"Активные Эффекты"
+
+		"tip_trial_available"				"У вас есть купон на бесплатную неделю <font color='#f7b80f'>Золотого Поддержавшего</font> benefits.<br><font color='#ffffff'>Активировать его?</font>"
+		"tip_accept_trial"					"Активировать"
+		"tip_decline_trial"					"Позже"
+
+		"toast_sub_trial_started"				"<font color='#f7b80f'>Золотой Поддержавший</font> активирован."
+		"toast_sub_trial_started_description"	"Теперь у вас есть преимущества золотого поддержавшего! Приятной игры!"
+
+		"dota_hud_error_webapi_request_in_progress"		"Пожалуйста, дождитесь завершения текущего запроса!"
+
+		"reroll_tooltip_consumable"			"Заменить выбор с помощью <font color='#DF0101'>РАСХОДНЫХ РЕРОЛЛОВ</font>.<br>Реролл обычного / <font color='#007cff'>Редкого</font> / <font color='#e400ff'>Эпического</font> Улучшения стоит 1 / <font color='#007cff'>2</font> / <font color='#e400ff'>4</font> реролла."
+
+		"settings_header"						"Настройки"
+		"settings_top_menu_hint"				"Открыть Внутриигровые Настройки"
+
+		"settings_category_hero_selection"		"Выбор героя"
+		"settings_category_upgrade_selection"	"Выбор улучшения"
+
+		"settings_entry_hide_streaks"			"Скрыть череду побед"
+		"settings_entry_tooltip_hide_streaks"	"Ваша череда побед будет отображатся как 0 / 0 для всех игроков, кроме вас"
+
+		"settings_entry_disable_transparent_upgrade_ui"	"Отключить прозрачность интерфейса"
+		"settings_entry_tooltip_disable_transparent_upgrade_ui"	"Отключает прозрачность интерфейса выбора улучшения при использовании способностей"
+
+		"leaderboard_top_menu_hint"			"Открыть Таблицу Лидеров"
+		"leaderboard"			"Таблица лидеров"
+		"leaderboard_player"	"Игрок"
+		"leaderboard_rating"	"Рейтинг"
+
+		"base_price"					"${s:price}"
+		"supporter_duration_donate"		"Стать {s:boost_duration_name} на <span class='SemiBold'>дней: {d:sub_duration}</span>"
+		"sub_unlock"					"Получить"
+		"sub_extend"					"Расширить"
+		"donate_bonus_items"					"Бонусные Награды"
+		"donate_bonus_items_duration_hint"		"Количество бонусных наград зависит<br>от выбранной длительности поддержки"
+		"forced_gift_code_bonus_items_hint"		"Бонусные награды являются частью подарочных кодов"
+		"currency_shop_hint"			"Боевая Слава и Перебросы могут быть получены во время игры.<br>Награды за пожертвование - это знак нашей признательности за помощь в разработке Overthrow 3.0; все награды могут быть получены, просто играя в игру."
+		"not_enough_glory_hint"			"Нажмите, чтобы получить дополнительную славу"
+		"sub_duration_warning"			"При покупке <b>Золотой Поддержки</b>, оставшееся время <b>Поддержки</b> будет конвертировано в дополнительную длительность в соотношении <b>4 к 1</b>"
+
+		"promo_events_header"			"Промо События"
+		"promo_events_games_header"		"Получайте награды, играя в наши игры"
+		"promo_events_no_tasks"			"Нет доступных заданий"
+		"promo_events_claim"			"Получить!"
+		"promo_events_claimed"			"Получено"
+		"promo_events_game_12v12"						"12v12"
+		"promo_events_game_overthrow_3"					"Overthrow 3.0"
+		"promo_events_game_custom_hero_clash"			"Custom Hero Clash"
+		"promo_events_game_ar_custom_game_template"		"Template"
+		"promo_events_time_remaining"	"{s:time_remaining} осталось"
+		"promo_events_time_expired"		"Время вышло"
+		"promo_events_time_days"		"{s:days} д."
+		"promo_events_time_hours"		"{s:hours} ч."
+		"promo_events_time_mins"		"{s:mins} мин."
+		"promo_events_open_game_hint"	"Открыть <font color='#f1c13b'>{s:game_name}</font> в Мастерской Steam"
+
+		"promo_events_win_games"		"Выиграть игры"
+		"promo_events_play_games"		"Сыграть игры"
+		"promo_events_reach_round"		"Достигнуть раунда"
+		"promo_events_ot3_upgrades"		"Получить улучшения"
+		"promo_events_kill_heroes"		"Убить вражеских героев"
+		"promo_events_mvp"				"Стать лучшим"
+		"promo_events_ot3_hero_challenge"	"Завершить испытания героев"
+		"promo_events_ot3_upgrades"		"Получить улучшения"
+		"promo_events_kill_heroes"		"Убить героев"
+		"promo_events_mvp"				"Стать лучшим"
+
+		"promo_events_top_menu_hint"				"Показать Промо События"
+		"toast_promo_claim_available"				"Доступны <span class='ToastGoldenGradientText'>награды Промо Событий</span>!"
+		"toast_promo_claim_available_description"	"У Вас есть неполученные награды за игру в другие наши игры!<br><span class='ToastHighlightItalic'>Нажать что-бы получить награду</span>"
+
+	}
+}

@@ -1,0 +1,8 @@
+<root>
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/scripts/utils.js"/>
+		<include src="file://{resources}/layout/custom_game/custom_chat/custom_chat_hero_selection.js" />
+	</scripts>
+
+	<Panel hittest="false" style="visibility:collapse;"/>
+</root>

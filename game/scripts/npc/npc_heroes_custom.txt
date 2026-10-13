@@ -1,0 +1,7 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_sven"
+	{
+		"Ability5"		"high_five_custom"
+	}
+}
